@@ -13,7 +13,7 @@ import javax.persistence.Id;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Employe {
+public class Employe extends EmployeeAudit{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
